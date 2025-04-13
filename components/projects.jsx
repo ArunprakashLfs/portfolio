@@ -2,15 +2,16 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import JavascriptProject from "../assets/Javascript-seat-booking.png"
+import Portfolio from "../assets/portfolio.png"
 import Image from 'next/image';
 
 const projects = [
   {
     id: 1,
-    title: 'Project 1',
-    description: 'A brief description of the project.',
-    image: '/images/project1.jpg',
-    link: '#',
+    title: 'Portfolio',
+    description: 'MY personal portfolio',
+    image: Portfolio,
+    link: 'https://portfolio-a4g72ehgg-arunprakashs-projects-4eb0b67a.vercel.app/',
   },
   {
     id: 2,
